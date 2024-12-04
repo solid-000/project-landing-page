@@ -1,5 +1,5 @@
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
 }
 
@@ -45,7 +45,16 @@ body{
 .b1-header{
     display: flex;
     flex-direction: column;
-    
+    align-items: flex-start;
+    gap: 5px;
+}
+.b1-header>div{
+    flex: auto;
+}
+.b1-header>button{
+    padding: 3px 10px;
+    border-radius: 5px ;
+    flex-shrink: 0;
 }
 .body-1>div{
     flex: 1 1 50%;
