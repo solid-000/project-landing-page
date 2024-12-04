@@ -51,6 +51,9 @@ body{
     justify-content: center;
     
 }
+.body-1>div{
+    display: flex;
+}
 .b1-header{
     flex: auto;
     display: flex;
